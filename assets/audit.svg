@@ -1,0 +1,67 @@
+<svg width="840" height="360" viewBox="0 0 840 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de auditoria de segurança: verificações aprovadas">
+  <defs>
+    <style>
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; }
+      .pass  { animation: blink 0s; }
+      @keyframes type {
+        from { opacity: 0; transform: translateX(-4px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .row { opacity: 0; animation: type .5s ease forwards; }
+        .r1 { animation-delay: .15s; } .r2 { animation-delay: .45s; }
+        .r3 { animation-delay: .75s; } .r4 { animation-delay: 1.05s; }
+        .r5 { animation-delay: 1.35s; } .caret { animation: cb 1s steps(1) infinite; }
+        @keyframes cb { 50% { opacity: 0; } }
+      }
+    </style>
+  </defs>
+
+  <!-- surface -->
+  <rect x="1" y="1" width="838" height="358" rx="14" fill="#0B0F0E" stroke="#1A2421" stroke-width="2"/>
+
+  <!-- title bar -->
+  <circle cx="28" cy="30" r="5" fill="#1A2421"/>
+  <circle cx="46" cy="30" r="5" fill="#1A2421"/>
+  <circle cx="64" cy="30" r="5" fill="#1A2421"/>
+  <text x="100" y="35" class="mono" font-size="14" fill="#5B6B66">audit — david@prod</text>
+  <line x1="20" y1="52" x2="820" y2="52" stroke="#1A2421" stroke-width="1.5"/>
+
+  <!-- command line -->
+  <text x="28" y="92" class="mono" font-size="16" fill="#5B6B66">$</text>
+  <text x="50" y="92" class="mono" font-size="16" fill="#E8EDEB">run security audit --before-deploy</text>
+
+  <!-- rows -->
+  <g class="mono" font-size="16">
+    <g class="row r1">
+      <text x="28"  y="140" fill="#3FB68B">[ ✓ ]</text>
+      <text x="100" y="140" fill="#E8EDEB">no secrets exposed</text>
+      <text x="700" y="140" fill="#3FB68B">200 OK</text>
+    </g>
+    <g class="row r2">
+      <text x="28"  y="178" fill="#3FB68B">[ ✓ ]</text>
+      <text x="100" y="178" fill="#E8EDEB">LGPD compliant</text>
+      <text x="700" y="178" fill="#3FB68B">200 OK</text>
+    </g>
+    <g class="row r3">
+      <text x="28"  y="216" fill="#3FB68B">[ ✓ ]</text>
+      <text x="100" y="216" fill="#E8EDEB">auth + ownership checked</text>
+      <text x="700" y="216" fill="#3FB68B">200 OK</text>
+    </g>
+    <g class="row r4">
+      <text x="28"  y="254" fill="#3FB68B">[ ✓ ]</text>
+      <text x="100" y="254" fill="#E8EDEB">input validated (zod)</text>
+      <text x="700" y="254" fill="#3FB68B">200 OK</text>
+    </g>
+    <g class="row r5">
+      <text x="28"  y="292" fill="#3FB68B">[ ✓ ]</text>
+      <text x="100" y="292" fill="#E8EDEB">rate limit active</text>
+      <text x="700" y="292" fill="#3FB68B">200 OK</text>
+    </g>
+  </g>
+
+  <line x1="20" y1="316" x2="820" y2="316" stroke="#1A2421" stroke-width="1.5"/>
+  <text x="28" y="344" class="mono" font-size="14" fill="#5B6B66">5 passed · 0 failed · documentado antes da primeira linha</text>
+  <text x="560" y="344" class="mono" font-size="14" fill="#5B6B66">ready to ship</text>
+  <rect x="700" y="332" width="9" height="15" fill="#3FB68B" class="caret"/>
+</svg>
