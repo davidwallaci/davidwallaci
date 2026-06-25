@@ -6,8 +6,8 @@
 
 # David
 
-**Desenvolvedor da nova era.**<br/>
-Construo produtos web com auxílio de IA. O que eu garanto é que nada vaza.
+**Desenvolvedor e profissional de marketing digital.**<br/>
+A IA executa. Eu dirijo.
 
 </div>
 
@@ -20,6 +20,16 @@ Construo produtos web com auxílio de IA. O que eu garanto é que nada vaza.
 
 <br/>
 
+### Sobre mim
+
+Construo produtos de software de ponta a ponta com forte apoio de IA, e faço questão de ser claro sobre o que isso significa no meu fluxo: **a IA executa, eu dirijo.** Arquitetura, modelo de segurança, decisões de produto e revisão crítica são meus, não delego julgamento.
+
+Trato cada saída de IA como código de um colega que ainda precisa passar por review: exijo o teste que prova o caminho negativo, não só o feliz; questiono o atalho quando ele esconde dívida; e separo decisão técnica de decisão de produto, que é minha pra tomar. Segurança e multi-tenancy não são features, são fundação, e se provam com teste, não se afirmam.
+
+A vantagem real da IA não é escrever código mais rápido, e sim deixar uma pessoa manter rigor de engenharia em mais frentes ao mesmo tempo, desde que essa pessoa traga o julgamento. É esse o trabalho que eu faço.
+
+<br/>
+
 ```log
 # como eu trabalho
 
@@ -29,10 +39,6 @@ Construo produtos web com auxílio de IA. O que eu garanto é que nada vaza.
 04  ux que respeita o usuário     →  menor esforço possível para o resultado
 05  automação                     →  software que trabalha pelo usuário
 ```
-
-> A IA é minha ferramenta principal, e não escondo isso. Dá para construir sistemas
-> robustos e seguros nesta era, desde que se entenda as vulnerabilidades, se estude
-> os conceitos e se assuma a responsabilidade pelo que vai para produção.
 
 ```ts
 const stack = {
