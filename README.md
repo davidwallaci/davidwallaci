@@ -1,7 +1,7 @@
 <h1 align="center">Olá, eu sou o David 👋</h1>
 
 <p align="center">
-  <strong>Desenvolvedor da nova era</strong> — construo produtos web com auxílio de IA,
+  <strong>Desenvolvedor da nova era</strong>, construo produtos web com auxílio de IA,
   <br/>com obsessão por <strong>segurança</strong>, <strong>conformidade (LGPD)</strong> e <strong>experiência do usuário</strong>.
 </p>
 
@@ -9,15 +9,15 @@
 
 ### 💡 Como eu trabalho
 
-A IA é minha ferramenta principal — e não escondo isso. Mas o que define o resultado não é quem digita o código, e sim quem cuida do que importa:
+A IA é minha ferramenta principal, e não escondo isso. Mas o que define o resultado não é quem digita o código, e sim quem cuida do que importa:
 
-- 🔐 **Segurança em primeiro lugar** — nada de API exposta, dado sensível vazado ou rota desprotegida. Audito antes de subir.
-- 📋 **Documentação e planejamento antes do código** — modelo de negócio, lógica, stack e boas práticas definidos antes da primeira linha.
-- ⚖️ **Conformidade com a LGPD** — tratamento de dados pessoais pensado desde o início, não remendado depois.
-- 🎯 **UX que respeita o usuário** — interfaces funcionais, bonitas e com o menor esforço possível para o resultado.
-- 🤖 **Automação** — software que trabalha pelo usuário, não o contrário.
+- 🔐 **Segurança em primeiro lugar**, nada de API exposta, dado sensível vazado ou rota desprotegida. Audito antes de subir.
+- 📋 **Documentação e planejamento antes do código**, modelo de negócio, lógica, stack e boas práticas definidos antes da primeira linha.
+- ⚖️ **Conformidade com a LGPD**, tratamento de dados pessoais pensado desde o início, não remendado depois.
+- 🎯 **UX que respeita o usuário**, interfaces funcionais, bonitas e com o menor esforço possível para o resultado.
+- 🤖 **Automação**, software que trabalha pelo usuário, não o contrário.
 
-> Acredito que dá para construir sistemas robustos e seguros nesta era de IA — desde que se entenda as vulnerabilidades, se estude os conceitos e se assuma a responsabilidade pelo que vai para produção.
+> Acredito que dá para construir sistemas robustos e seguros nesta era de IA, desde que se entenda as vulnerabilidades, se estude os conceitos e se assuma a responsabilidade pelo que vai para produção.
 
 ---
 
