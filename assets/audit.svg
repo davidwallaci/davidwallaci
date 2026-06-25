@@ -1,4 +1,4 @@
-<svg width="840" height="360" viewBox="0 0 840 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de auditoria de segurança: verificações aprovadas">
+<svg width="100%" viewBox="0 0 840 360" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Painel de auditoria de segurança: verificações aprovadas">
   <defs>
     <style>
       .mono { font-family: "JetBrains Mono", "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; }
